@@ -7,7 +7,8 @@ class ClickCounter extends Component {
     return (
       <div>
         <button onClick={incrementCount}>
-          {this.props.name} Clicked {count} times
+          {this.props.name}
+          <b>{count}</b>
         </button>
       </div>
     );

@@ -5,7 +5,7 @@ import HoverCounter from "./HoverCounter";
 function App() {
   return (
     <div className="App">
-      <ClickCounter name="testname" />
+      <ClickCounter name="Click to increment " />
       <HoverCounter />
     </div>
   );
